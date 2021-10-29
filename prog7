@@ -1,0 +1,34 @@
+/* figure: prog7.cpp																*/
+/************************************************************************************/
+/* Название файла: prog7.cpp														*/
+/* Теория: эта программа вычисляет площадь круга									*/
+/* Описание: запросить радиус круга, умножить его квадрат на пи и вывести площадь	*/
+/* Дата: 2021 / 09 / 25																*/
+/* Автор: Комарова Е. Л.															*/
+/* Версия: 1																		*/
+/************************************************************************************/
+
+#include <iostream>
+using namespace std;
+#define _USE_MATH_DEFINES
+#include <math.h> 
+
+int main()
+{
+	printf_s(
+			"***********************************************************\n\
+			*Nizhniy Novgorod Technical University*\n\
+			* Study work number 1. Task number 7. *\n\
+			*Performed student 21IVT-2 Komarova Ekaterina*\n\
+			***********************************************************\n"
+			);
+ 
+  float r;
+ 
+  cout << "Vvedite radius kruga: ";
+  cin >> r ;
+  cout <<"Ploshad' kruga ravna: " << r * r * M_PI;
+ 
+  return 0;
+
+}
