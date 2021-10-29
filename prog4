@@ -1,0 +1,34 @@
+/* figure: prog4.cpp													*/
+/************************************************************************/
+/* Название файла: prog4.cpp											*/
+/* Теория: эта программа вычисляет площадь прямоугольника				*/
+/* Описание: запросить длины сторон, перемножить их и вывести площадь	*/
+/* Дата: 2021 / 09 / 25													*/
+/* Автор: Комарова Е. Л.												*/
+/* Версия: 1															*/
+/************************************************************************/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+ 	printf_s(
+			"***********************************************************\n\
+			*Nizhniy Novgorod Technical University*\n\
+			* Study work number 1. Task number 4. *\n\
+			*Performed student 21IVT-2 Komarova Ekaterina*\n\
+			***********************************************************\n"
+			);
+ 
+	float x, y;
+ 
+	cout << "Vvedite dliny pervoi storoni: ";
+	cin >> x;
+	cout << "Vvedite dliny vtoroi storoni: ";
+	cin >> y;
+	cout << "Ploshad' ravna: " << x * y << "\n";
+
+  return 0;
+ 
+}
